@@ -1,4 +1,4 @@
 # Averaging Weighted Quaternions
-A repository explaining how to find the average quaternion given several weighted quaternions.
+A repository explaining how to find the average quaternion given several weighted quaternions. As I had trouble finding example code that solves this problem, I think that this will be helpful to others. I worked on that problem in a robot related project, therefore I used datatypes like `tf::Quaternion` or `tf::Point` which are taken from the [`tf` package](http://wiki.ros.org/tf "Transform package of ROS") associated with _ROS_ ([Robot Operating System](http://www.ros.org/ "ROSlaunch the Website")). I am pretty sure you can easily replace them with the respective [`Eigen`](http://eigen.tuxfamily.org/index.php?title=Main_Page "Eigen and Friends")-versions. I hope this will help!
 
-
+Credits go to [this answer on SO](https://stackoverflow.com/a/27410865/4397853 "See Jonathans answer...") which basically sums up steps given in [this paper](http://www.acsu.buffalo.edu/~johnc/ave_quat07.pdf "Averaging Quaternions").
