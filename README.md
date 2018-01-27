@@ -10,7 +10,7 @@ First we construct a matrix ![equation](https://latex.codecogs.com/gif.latex?Q) 
 
 ![equation](https://latex.codecogs.com/gif.latex?Q%20%26%3D%20%5Bq_i%20w_i%20%5C%2C%20%7C%20%5C%2C%20%5Cforall%20i%5D%20%3D%20%5Bq_1w_i%2C%20q_2w_2%2C%20%5Cldots%2C%20q_nw_n%5D%20%3D%20%5Cbegin%7Bbmatrix%7D%20a_1w_1%20%26%20a_2w_2%20%26%20%5Cldots%20%26%20a_nw_n%5C%5C%20b_1w_1%20%26%20b_2w_2%20%26%20%5Cldots%20%26%20b_nw_n%5C%5C%20c_1w_1%20%26%20c_2w_2%20%26%20%5Cldots%20%26%20c_nw_n%5C%5C%20d_1w_1%20%26%20d_2w_2%20%26%20%5Cldots%20%26%20d_nw_n%20%5Cend%7Bbmatrix%7D)
 
-Then we multiply this matrix with its transposed version resulting in a ![equation](https://latex.codecogs.com/gif.latex?(4&space;\times&space;n)&space;\cdot&space;(n&space;\times&space;4)&space;=&space;(4&space;\times&space;4)) Matrix we call ![equation](https://latex.codecogs.com/gif.latex?Q_2). Then we have to find the largest Eigenvalue of ![equation](https://latex.codecogs.com/gif.latex?Q_2) and take the corresponding Eigenvector:
+Then we multiply this matrix with its transposed version resulting in a ![equation](https://latex.codecogs.com/gif.latex?(4&space;\times&space;n)&space;\cdot&space;(n&space;\times&space;4)&space;=&space;(4&space;\times&space;4)) Matrix ![equation](https://latex.codecogs.com/gif.latex?Q_2%3DQ%20Q%5ET). Then we have to find the largest Eigenvalue of ![equation](https://latex.codecogs.com/gif.latex?Q_2) and take the corresponding Eigenvector:
 ![equation](https://latex.codecogs.com/gif.latex?%5Ctext%7Bmax%5C_eigenvector%7D%3D%5C%7B%5Ctext%7Beigenvector%7D%5C%2C%7C%5C%2Cmax%28%5Ctext%7Beigenvalue%7D%29%3B%5Cforall%5C%2C%5Ctext%7B%28eigenvalue%2C%20eigenvector%20%29%20of%20%7DQ_2%5C%7D)
 
 Then our averaged quaternion is simply:
