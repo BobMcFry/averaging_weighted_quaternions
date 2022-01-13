@@ -9,7 +9,9 @@
 //#include <Eigen/Eigenvalues>
 #include <eigen3/Eigen/Core>
 #include <eigen3/Eigen/Eigenvalues>
-#include <tf/transform_datatypes.h>
+//
+#include <tf/transform_datatypes.h> // tf quaternion
+#include <tf2/LinearMath/Quaternion.h> // tf2 quaternion
 
 namespace math_quat {
 
