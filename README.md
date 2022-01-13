@@ -17,5 +17,5 @@ Then our averaged quaternion is simply:
 
 ![equation](https://latex.codecogs.com/gif.latex?q_%7B%5Ctext%7Bavg%7D%7D%20%3D%20%5Cfrac%7B%5Ctext%7Bmax%5C_eigenvector%7D%7D%7B%7C%7C%5Ctext%7Bmax%5C_eigenvector%7D%7C%7C%7D)
 
-Usage: Include the averaging_quaternions.hpp file in your code, call math_quat::getAverageQuaternion Method.
+Usage: Include the averaging_quaternions.hpp, call math_quat::getAverageQuaternion Method.
 
