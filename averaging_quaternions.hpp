@@ -61,7 +61,7 @@ namespace math_quat {
                 eigenvector[3].real()
         );
 
-        return mean_orientation;
+        return mean_orientation.normalized();
     }
 
     static tf::Quaternion getAverageQuaternion(
@@ -109,7 +109,7 @@ namespace math_quat {
                 eigenvector[3].real()
         );
 
-        return mean_orientation;
+        return mean_orientation.normalized();
     }
 
 } //ns
